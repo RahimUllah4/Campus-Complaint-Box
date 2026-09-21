@@ -20,3 +20,8 @@ jobs:
           test -f style.css
           test -f script.js
           echo "All project files are present."
+
+      - name: Check HTML title
+        run: |
+          grep -q "<title>Campus Complaint Box</title>" index.html
+          echo "HTML title check passed."
