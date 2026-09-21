@@ -156,3 +156,25 @@ button:hover {
         width: 95%;
     }
 }
+/* Improved design */
+
+header {
+    border-bottom: 4px solid #0f172a;
+}
+
+.card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.complaint {
+    transition: box-shadow 0.2s ease;
+}
+
+.complaint:hover {
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
